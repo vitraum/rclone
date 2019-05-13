@@ -1,0 +1,3 @@
+#!/bin/sh
+
+eval /usr/bin/rclone --config $RCLONE_CFG $RCLONE_OPT $RCLONE_CMD $RCLONE_SRC $RCLONE_DST
