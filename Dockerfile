@@ -2,7 +2,7 @@ ARG BASE=alpine:3.9
 FROM ${BASE} as base
 
 FROM base as builder
-ARG RCLONE_VERSION=v1.47.0
+ARG RCLONE_VERSION=v1.48.0
 ARG ARCH=amd64
 
 RUN apk -U add ca-certificates wget tzdata
